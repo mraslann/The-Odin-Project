@@ -1,0 +1,47 @@
+button{
+    cursor: pointer;
+}
+.whole{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.whole-calc{
+    background-color: rgb(191, 191, 191);
+    border: 6px black solid;
+    padding: 20px;
+}
+.screen{
+    background-color: #36a336;
+    height: 100px;
+    margin: 20px;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+.number, .ops, #point, #equals{
+    border: 2px black solid;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 20px;
+    width: 90px;
+    height: 65px;
+}
+
+.screen-top{
+    font-size: 20px;
+    margin: 10px;
+}
+.screen-bottom{
+    font-size: 32px;
+    padding-top: 20px;
+    margin: 10px;
+}
+.reset{
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
