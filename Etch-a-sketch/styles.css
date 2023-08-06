@@ -1,0 +1,56 @@
+.big-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+.small-box{
+    border-style: solid;
+    width: 500px;
+    height: 500px;
+    display: grid;
+}
+.title{
+    text-align: center;
+    color: red;
+    font-weight: bolder;
+}
+.options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#colour-wheel{
+    border-radius: 20px;
+    margin-right: 100px;
+}
+input[type='color'] {
+    transition: transform 0.1s ease-in-out;
+  }
+  
+  button:hover,
+  input[type='color']:hover {
+    transform: scale(1.05);
+  }
+  
+  input[type='color']:active {
+    transition: transform 0.05s ease-in-out;
+    transform: scale(1);
+  }
+  
+  input[type='color'] {
+    width: 40px;
+    height: 40px;
+    border: none;
+  }
+  
+  input[type='color']::-webkit-color-swatch-wrapper {
+    padding: 0;
+  }
+  
+  input[type='color']::-webkit-color-swatch {
+    border: none;
+    border-radius: 50px;
+  }
+#size{
+    margin-right: 50px;
+}
