@@ -74,7 +74,7 @@ contents.each do |row|
     zipcode = clean_zipcode(zipcode)
     legislators = legislators_by_zipcode(zipcode)
     form_letter = erb_template.result(binding)
-    #save_thank_you_letter(id, form_letter)
+    save_thank_you_letter(id, form_letter)
 end
 max_hour = most_common_hour.max_by {|key, value| value}
 max_day = most_common_day.max_by {|key, value| value}
